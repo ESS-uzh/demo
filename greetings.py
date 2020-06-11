@@ -7,3 +7,5 @@ b = 6
 
 c = True
 d = 'Yet another var'
+
+e = False
