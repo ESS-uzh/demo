@@ -22,9 +22,7 @@ if __name__ == "__main__":
             print("Exception being raised: {}".format(cls.__name__))
             raise cls
         except AnotherException as e:
-            #print(type(e))
             print("AnotherException")
         except MyException as e:
-            #print(type(e))
             print("MyException")
 
